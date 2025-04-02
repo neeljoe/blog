@@ -8,6 +8,8 @@ import Lifestyle from './pages/Lifestyle'
 import Signin from './pages/Signin'
 import Signup from './pages/Signup'
 import Travel from './pages/Travel'
+import Dashboard from './pages/Dashboard';
+import Blogs from './pages/Blogs';
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
       <Route path='/sign-in' element={<Signin />} />
       <Route path='/sign-up' element={<Signup />} />
       <Route path='/travel' element={<Travel />} />
+      <Route path='/dashboard' element={<Dashboard />} />
+      <Route path='/blogs' element={<Blogs />} />
     </Routes>
     </BrowserRouter>
   )
