@@ -10,10 +10,12 @@ import Signup from './pages/Signup'
 import Travel from './pages/Travel'
 import Dashboard from './pages/Dashboard';
 import Blogs from './pages/Blogs';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Header />
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/fashion' element={<Fashion />} />

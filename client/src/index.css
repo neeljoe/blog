@@ -1,5 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
-@import "tailwindcss";
-@plugin "daisyui" {
-  themes: all;
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+body {
+  font-family: "Roboto", sans-serif;
+ 
+}
+.my-logo {
+  font-family: 'Dancing Script', cursive;
 }
