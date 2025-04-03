@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
-    "start": "node api/index.js" 
+    "start": "node api/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/neeljoe/blog#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^5.1.0",
+    "mongoose": "^8.13.1",
     "nodemon": "^3.1.9"
   }
 }
