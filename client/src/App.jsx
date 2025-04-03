@@ -10,6 +10,7 @@ import Signup from './pages/Signup'
 import Travel from './pages/Travel'
 import Dashboard from './pages/Dashboard';
 import Blogs from './pages/Blogs';
+import About from './pages/About';
 import Header from './components/Header';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Route path='/travel' element={<Travel />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/blogs' element={<Blogs />} />
+      <Route path='/about' element={<About />} />
     </Routes>
     </BrowserRouter>
   )
